@@ -1,0 +1,13 @@
+{
+    "name":"firstTest",
+    "version":"0.0.1",
+    "manifest_version":2,
+    "description":"google translate brrr",
+    "content_scripts":[
+        {
+            "js":["init.js"],
+            "css": ["style.css"],
+            "matches":["*://translate.google.com/*"]
+        }
+    ]
+}
